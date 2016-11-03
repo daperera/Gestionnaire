@@ -23,7 +23,7 @@ public class Window extends JFrame{
 	    setLocationRelativeTo(null);
 	    windowPanel = new WindowPanel(model);
 	    setContentPane(windowPanel);
-	    setJMenuBar(menuBar = new MenuBar(Controller));
+	    setJMenuBar(new MenuBar(controller));
 	    setVisible(true);
 	}
 	

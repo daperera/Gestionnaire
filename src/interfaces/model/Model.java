@@ -1,5 +1,9 @@
 package interfaces.model;
 
-public class Model {
+import java.awt.Graphics;
 
+public abstract class Model {
+	public void paintComponent(Graphics g) {
+		
+	}
 }
