@@ -1,5 +1,7 @@
 package interfaces.model;
 
+import java.awt.Graphics;
+
 import interfaces.Controller;
 
 public class AddModel extends Model{
@@ -7,5 +9,11 @@ public class AddModel extends Model{
 	
 	public AddModel(Controller controller) {
 		this.controller = controller;
+	}
+
+	@Override
+	public void paintComponent(Graphics g) {
+		// TODO Auto-generated method stub
+		
 	}
 }
